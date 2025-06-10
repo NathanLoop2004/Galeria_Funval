@@ -9,3 +9,4 @@ export default function NameBar({search}) {
     </div>
   )
 }
+
