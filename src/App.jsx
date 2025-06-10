@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Nav_Bar onSearch={setSearchInput}/>
-    <Buttons />
+    <Buttons onButtonSearch={setSearchInput}/>
     <CardContainer search={searchInput}/>
 
     </>
